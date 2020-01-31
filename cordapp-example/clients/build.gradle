@@ -33,7 +33,7 @@ dependencies {
     testCompile "junit:junit:$junit_version"
 
     // Corda dependencies.
-    compile "net.corda:corda-core:$corda_release_version"
+    compile "$corda_core_release_group:corda-core:$corda_core_release_version"
     compile "net.corda:corda-jackson:$corda_release_version"
     compile "net.corda:corda-rpc:$corda_release_version"
     compile "net.corda:corda:$corda_release_version"
